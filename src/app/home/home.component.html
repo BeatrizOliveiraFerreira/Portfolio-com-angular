@@ -1,0 +1,98 @@
+<div class="body">
+
+<div class="menu">
+<button mat-button [matMenuTriggerFor]="aboveMenu" class="perfil">Sobre mim</button>
+<mat-menu #aboveMenu="matMenu" yPosition="above">
+  <app-perfil><button mat-menu-item>Sobre mim</button></app-perfil>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="belowMenu" class="projetos">Meus Projetos</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <app-projetos><button mat-menu-item>Meus Projetos</button></app-projetos>
+</mat-menu>
+
+
+
+<button mat-button [matMenuTriggerFor]="beforeMenu"class="contatos">Meus Contatos</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before">
+  <app-contatos><button mat-menu-item>Meus Contatos</button></app-contatos>
+</mat-menu>
+
+
+<button mat-button [matMenuTriggerFor]="afterMenu"class="extras">Outras Referências</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+ <app-outras-referencias><button mat-menu-item>Outras Referências</button></app-outras-referencias>
+</mat-menu>
+</div>
+
+
+
+
+
+
+
+<div class="div">
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Capitais</mat-card-title>
+      <mat-card-subtitle>Disponível em meu github e no link abaixo</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="./assets/images/capitais.png" alt="capitais">
+    <mat-card-content>
+      <p>
+        <a href="https://capitales.vercel.app/" target="_blank"><button class="capitales">Link para o site</button></a>  
+      </p>
+      <h3>Projeto de perguntas e respostas sobre algumas capitais do mundo</h3>
+    </mat-card-content>
+  </mat-card>
+
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Muevele</mat-card-title>
+      <mat-card-subtitle>Disponível em meu github e no link abaixo</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/home-office.png" alt="exercícios para home office">
+    <mat-card-content>
+      <p>
+        <a href="https://muevele.vercel.app/" target="_blank"><button class="muevele">Link para o site</button></a>  
+      </p>
+      <h3>Projeto sobre exercícios básicos para quem fica muito tempo no computador</h3>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Netflix</mat-card-title>
+      <mat-card-subtitle>Disponível em meu github e no link abaixo</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="./assets/images/netflix.png" alt="netflix">
+    <mat-card-content>
+      <p>
+        <a href="https://beatrizoliveiraferreira.github.io/netflix/" target="_blank"><button class="netflix">Link para o site</button></a>  
+      </p>
+      <h3>Projeto de clone da netflix feito somente com javascript</h3>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Cronômetro</mat-card-title>
+      <mat-card-subtitle>Disponível em meu github e no link abaixo</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="./assets/images/cronometro.png" alt="cronometro">
+    <mat-card-content>
+      <p>
+        <a href="https://damas-lac.vercel.app/" target="_blank"><button class="cronometro">Link para o site</button></a>  
+      </p>
+      <h3>Projeto que se inicia um cronômetro, com início, pausa e botão de parar, feito unicamente com javascript</h3>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+</div>
+

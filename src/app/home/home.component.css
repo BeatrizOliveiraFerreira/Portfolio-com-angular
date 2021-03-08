@@ -1,0 +1,182 @@
+.body{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 100%;
+    size: 100%;
+}
+.menu{
+    margin-left: 28%;
+}
+
+.perfil {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+}
+
+.projetos {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 1000;
+    color: white;
+}
+
+.contatos {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 1000;
+    color: white;
+}
+
+.extras {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 1000;
+    color: white;
+}
+
+.div {
+    display: flex;
+}
+.example-card {
+    max-width: 20rem;
+    border-radius: 15px; 
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 8rem;
+    background-color: thistle;
+}
+
+.capitales {
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(255, 238, 0);
+    color: indigo;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+.capitales:hover {
+    background-color: indigo;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.muevele {
+    padding: 5px 20px 5px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+.muevele:hover {
+    background-color: white;
+    color: blue;
+    font-weight: 900;
+}
+
+.netflix {
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(16, 179, 16);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+.netflix:hover {
+    background-color: white;
+    color: rgb(16, 179, 16);
+    font-weight: 900;
+}
+
+.cronometro {
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+.cronometro:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(221, 10, 10);
+    font-weight: 900;
+}
+  
+.example-header-image {
+    background-image: url('https://avatars.githubusercontent.com/u/66791075?s=460&u=575ad680195c5e9124fd466242dbafe156625fc9&v=4');
+    background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .menu{
+      margin-left: 20px;
+  }
+  .perfil {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    margin-left: 2.5rem;
+    padding: 1px 55px 1px 55px;
+}
+  .projetos {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    margin-left: 2.5rem;
+    font-weight: 1000;
+    color: white;
+    padding: 1px 38.7px 1px 38.7px;
+    margin-top: 1rem;
+}
+
+.contatos {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    margin-left: 2.5rem;
+    font-weight: 1000;
+    color: white;
+    padding: 1px 35.5px 1px 35.5px;
+    margin-top: 1rem;
+}
+
+.extras {
+    background-color: rgb(71, 70, 70);
+    font-size: 20px;
+    margin-left: 2.5rem;
+    font-weight: 1000;
+    color: white;
+    padding: 1px 18px 1px 18px;
+    margin-top: 1rem;
+}
+
+.div {
+    display: inline;
+    background-color: rgb(36, 36, 36);
+}
+
+.body{
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 500%;
+    size: 100%;
+    
+}
+
+
+
+}

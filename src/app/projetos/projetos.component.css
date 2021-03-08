@@ -1,0 +1,25 @@
+.example-card {
+    margin: auto;
+    max-width: 350px;
+}
+  
+.example-header-image {
+    background-image: ('src/assets/images/ibm.png');
+    background-size: cover;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    background-color: indigo;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+    border: indigo;
+}
+
+button:hover {
+    background-color: white;
+    color: indigo;
+    border: indigo;
+}

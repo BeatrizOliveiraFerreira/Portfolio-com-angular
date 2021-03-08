@@ -1,0 +1,9 @@
+.example-card {
+    margin: auto;
+    max-width: 350px;
+}
+  
+.example-header-image {
+    background-image: ('https://avatars.githubusercontent.com/u/66791075?s=460&u=575ad680195c5e9124fd466242dbafe156625fc9&v=4');
+    background-size: cover;
+}
