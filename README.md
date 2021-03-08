@@ -1,3 +1,4 @@
+Esse projeto está no site: https://portfolio-rose-two-46.vercel.app/home
 # Curriculo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
